@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- bootstrap 4 cdn -->
+        <!-- css# -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        </script>
+    
+    <!-- css stylesheet -->
+        <style>
+            .backimg{
+                /* background-image: url("./wallpaperflare.com_wallpaper.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: top; */
+
+                background-image: linear-gradient(to right, rgba(255, 0, 136, 0.726), rgb(153, 0, 255));
+                
+            
+            }
+            .nav-index{
+                z-index: 500;
+            }
+
+            .spin{
+                transform: skewY(-12deg);
+            }
+            .box{
+                display: block;
+                text-decoration: none;
+                transform:skewY(12deg);
+            }
+            .jumboback{
+                background-color:transparent;
+                padding-top: 7%;
+                padding-bottom: 10%;
+            }
+            .jumboback1{
+                background-color:white;
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
+            .backnav{
+                background-color: transparent;
+            }
+            .footmar{
+                /* margin-top: 25%; */
+                top: 0px;
+                background-color: rgb(214, 214, 214);
+            }
+            
+            /* login from css */
+            body {font-family: Arial, Helvetica, sans-serif;}
+            form {border: 0px solid #f1f1f1;}
+
+            input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            }
+
+            .buttonn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            }
+
+            button:hover {
+            opacity: 0.8;
+            }
+
+            .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+            }
+
+            .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            }
+
+            img.avatar {
+            width: 40%;
+            border-radius: 50%;
+            }
+
+            .container {
+            padding: 16px;
+            }
+
+            span.psw {
+            float: right;
+            padding-top: 16px;
+            }
+
+            /* Change styles for span and cancel button on extra small screens */
+            @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                width: 100%;
+            }
+            }
+</style>
+        </style>
+    <title>Document</title>
+</head>
+<body class="backimg">
+    <nav style="z-index: 500;" class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">ANCHANTO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-sm-4">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">selluseller <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">wario</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">solutions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">company</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+          </ul>
+          
+        </div>
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid spin jumboback">
+        <div class="container">
+          <h1 class="display-5 box">7000+ businesses across APAC run highly successful end-to-end eCommerce operations through Anchanto Platform.</h1>
+          
+        </div>
+      </div>
+
+
+      <div class="jumbotron jumbotron-fluid spin  jumboback1">
+        <div  class="container">
+            <div  class="container">
+                <div class="card-deck">
+                  <div class="card card-form">
+                    <div style="padding-top: 10%;" class="card-body text-center box">
+                      <p class="card-text">Text content</p>
+                      <strong>
+                        We have a solution for eCommerce challenges of all shapes & sizes across Asia Pacific
+                      </strong>
+                      <p>Whether you are an eCommerce distributor, an asset-light enabler, an offline retailer transforming to omni-channel, a B2B logistics company trying to start eCommerce fulfillment, or an SME scaling online business, you have your own unique set of challenges.
+
+                        Anchanto’s cutting-edge technology simplifies backend operations, and helps you achieve unprecedented productivity through automated selling management.</p>
+                        <p>Whether you are an eCommerce distributor, an asset-light enabler, an offline retailer transforming to omni-channel, a B2B logistics company trying to start eCommerce fulfillment, or an SME scaling online business, you have your own unique set of challenges.
+
+                            Anchanto’s cutting-edge technology simplifies backend operations, and helps you achieve unprecedented productivity through automated selling management.</p>
+                            <p>Whether you are an eCommerce distributor, an asset-light enabler, an offline retailer transforming to omni-channel, a B2B logistics company trying to start eCommerce fulfillment, or an SME scaling online business, you have your own unique set of challenges.
+
+                                Anchanto’s cutting-edge technology simplifies backend operations, and helps you achieve unprecedented productivity through automated selling management.</p>
+                    </div>
+                  </div>
+                  <div class="card ">
+                    <div class="card-body text-center box">
+                      <p class="card-text">
+                        
+                        <form action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                              <img src="./girl.png" alt="Avatar" class="avatar">
+                            </div>
+                          
+                            <div class="container">
+                              <label for="uname"><b>Username</b></label>
+                              <input type="text" placeholder="Enter Username" name="uname" required>
+                          
+                              <label for="psw"><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+                                  
+                              <button class="buttonn" type="submit">Login</button>
+                              <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                            </div>
+                          
+                            <div class="container" >
+                              <button type="buttonn" class="cancelbtn">Cancel</button>
+                              <span class="psw">Forgot <a href="#">password?</a></span>
+                            </div>
+                          </form>
+                          
+
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-bottom: -6.5%;  padding-bottom: 15%; background-color: rgb(214, 214, 214);" class="jumbotron jumbotron-fluid spin ">
+
+        
+      </div>
+
+    <footer  style="margin-top: -9%;" class="page-footer font-small  pt-4 footmar">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left ">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3 ">
+      
+              <!-- Content -->
+              <h5 class="text-uppercase">LAYER MOUNTAINS CARTOON</h5>
+              <p>Before now now skirt and policies. Sometimes undergraduate pregnant hate innovative salad I will not, my throat, my football so important to invest bananas. But before the weekend football skirt sapien lorem layer various mountains pull adapter into the customer. Lorem very smart Before the very first in the entrance vestibule. Adipiscing eu football football football Football weekend and undergraduate and throat. Integer, and the present, but a lot. Before now skirt and a pregnant now.
+      
+              </p>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase text-dark">SALAD UGLY FILM EVER</h6>
+      
+              <ul class="list-unstyled ">
+                <li>
+                  <a class="text-dark" href="#!">Volleyball, but also smart.</a>
+                </li>
+                <li>
+                  <a class="text-dark" href="#!">But the film is either lorem.</a>
+                </li>
+                <li>
+                  <a class="text-dark" href="#!">Eu pull the trigger.</a>
+                </li>
+                <li>
+                  <a class="text-dark" href="#!">Pain is also a big pillow.</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mb-md-0 mb-3">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase text-dark">BUT THE VERY LARGE</h6>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <span style="font-size: 25px;"><i class="fab fa-twitter text-primary"></i></span>
+                  <a class="text-dark" href="#!">twitter</a>
+                </li>
+                <li>
+                  <span style="font-size: 25px;"><i class="fab fa-facebook-square text-primary"></i></span>
+                  <a class="text-dark" href="#!">facebook</a>
+                </li>
+                <li>
+                  <span style="font-size: 25px;"><i class="fab fa-instagram text-primary"></i></span>
+                  <a class="text-dark" href="#!">instagram</a>
+                </li>
+                <li>
+                  <span style="font-size: 25px;"><i class="fab fa-github-square text-primary"></i></span>
+                  <a class="text-dark" href="#!">github</a>
+                </li>
+              </ul>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-dark">© 2020 Copyright: Harshj
+          <hr>
+      
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      
+      
+</body>
+</html>
